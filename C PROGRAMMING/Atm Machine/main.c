@@ -25,7 +25,8 @@ bool again= true;
 while (again) {
 mainMenu();
 printf("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n");
-printf("Your Selection:\t"); scanf("%d", &option);
+printf("Your Selection:\t"); 
+scanf("%d", &option);
 switch (option) {
 case 1: system("CLS");
 checkBalance(balance);
@@ -58,8 +59,10 @@ void mainMenu() {
 printf("******************Hello!*******************\n");
 printf("**********Welcome to ATM Banking***********\n\n");
 printf("****Please choose one of the options below****\n\n");
-printf("< 1 > Check Balance\n"); printf("< 2 > Deposit\n");
-printf("< 3 > Withdraw\n"); printf("< 4 > Exit\n\n");
+printf("< 1 > Check Balance\n"); 
+ printf("< 2 > Deposit\n");
+printf("< 3 > Withdraw\n"); 
+ printf("< 4 > Exit\n\n");
 }
 
 //Main Menu
@@ -74,7 +77,8 @@ float deposit;
 printf("You choose to Deposit a money\n");
 printf("$$$$Your Balance is: $%.2f\n\n", balance);
 printf("****Enter your amount to Deposit\n");
-scanf("%f", &deposit); balance+= deposit;
+scanf("%f", &deposit); 
+balance+= deposit;
 printf("\n****Your New Balance is: $%.2f\n\n", balance);
 return balance;
 }
