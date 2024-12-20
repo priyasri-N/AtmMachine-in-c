@@ -104,7 +104,7 @@ return balance;
 void menuExit() {
 printf("--------------Take your receipt!!!------------------\n");
 printf("-----Thank you for using ATM Banking Machine!!!-----\n");
-printf("-----BROUGHT TO YOU BY itsourcecode.com-----\n");
+printf("-----Do visit us next Time-----\n");
 }
 //exit menu
 void errorMessage() {;
